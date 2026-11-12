@@ -1,0 +1,2174 @@
+{
+ "schema": "lwe.author-registry/1",
+ "status": "candidate registry — identities and lens assignments are unverified starting points; primary_source_count is 0 for every entry until a source is added",
+ "lenses": {
+  "gm_craft": "Running the table: pacing, spotlight, improvisation, session structure, player agency, actual-play craft",
+  "hard_science": "Hard SF: physics-first extrapolation, engineering problem-solving, deep time, ecology, alien minds, institutions under physical constraint",
+  "economy_trade": "Markets, finance, trade, speculation and the psychology of money",
+  "social_realism": "Society and interior life: class, family, marriage, moral psychology, generational sagas, historical sweep",
+  "mystery": "Fair-play mystery and investigation: clues, misdirection, detective method, motive",
+  "horror": "Supernatural, psychological and cosmic horror: dread, the uncanny, the limits of knowledge",
+  "hard_magic": "Rule-bound magic systems, costs and limits, progression, magic as technology or economy",
+  "politics_war": "Power, intrigue, statecraft, logistics, military campaigns, moral ambiguity, villains with coherent motives",
+  "myth_worldbuilding": "Deep worldbuilding: languages, myth, the weird city, folklore, cultures, wonder, humane satire",
+  "romance_relationships": "Romance, desire, loyalty and found family; relationship arcs with stakes",
+  "food_culture": "Cuisine, material culture and everyday life as worldbuilding",
+  "visual_art": "Illustration, creature and character design, visual tone",
+  "scholarship": "Criticism and scholarship of speculative fiction",
+  "villain_function": "Fictional adversaries studied for narrative function only — never treated as advisers or quoted as authors"
+ },
+ "entries": [
+  {
+   "name": "Brennan Lee Mulligan",
+   "kind": "gm",
+   "lenses": [
+    "gm_craft"
+   ],
+   "verified_identity": false,
+   "primary_source_count": 0,
+   "sources": []
+  },
+  {
+   "name": "Seth Skorkowsky",
+   "kind": "gm",
+   "lenses": [
+    "gm_craft"
+   ],
+   "verified_identity": false,
+   "primary_source_count": 0,
+   "sources": []
+  },
+  {
+   "name": "Gary Gygax",
+   "kind": "gm",
+   "lenses": [
+    "gm_craft"
+   ],
+   "verified_identity": false,
+   "primary_source_count": 0,
+   "sources": []
+  },
+  {
+   "name": "Dave Arneson",
+   "kind": "gm",
+   "lenses": [
+    "gm_craft"
+   ],
+   "verified_identity": false,
+   "primary_source_count": 0,
+   "sources": []
+  },
+  {
+   "name": "Matt Mercer",
+   "kind": "gm",
+   "lenses": [
+    "gm_craft"
+   ],
+   "verified_identity": false,
+   "primary_source_count": 0,
+   "sources": []
+  },
+  {
+   "name": "Aabria Iyengar",
+   "kind": "gm",
+   "lenses": [
+    "gm_craft"
+   ],
+   "verified_identity": false,
+   "primary_source_count": 0,
+   "sources": []
+  },
+  {
+   "name": "Chris Perkins",
+   "kind": "gm",
+   "lenses": [
+    "gm_craft"
+   ],
+   "verified_identity": false,
+   "primary_source_count": 0,
+   "sources": []
+  },
+  {
+   "name": "Matt Colville",
+   "kind": "gm",
+   "lenses": [
+    "gm_craft",
+    "politics_war"
+   ],
+   "verified_identity": false,
+   "primary_source_count": 0,
+   "sources": []
+  },
+  {
+   "name": "Brian Murphy (Murph)",
+   "kind": "gm",
+   "lenses": [
+    "gm_craft"
+   ],
+   "verified_identity": false,
+   "primary_source_count": 0,
+   "sources": []
+  },
+  {
+   "name": "Jasmine Bhullar",
+   "kind": "gm",
+   "lenses": [
+    "gm_craft"
+   ],
+   "verified_identity": false,
+   "primary_source_count": 0,
+   "sources": []
+  },
+  {
+   "name": "Griffin McElroy",
+   "kind": "gm",
+   "lenses": [
+    "gm_craft"
+   ],
+   "verified_identity": false,
+   "primary_source_count": 0,
+   "sources": []
+  },
+  {
+   "name": "Jerry Holkins",
+   "kind": "gm",
+   "lenses": [
+    "gm_craft"
+   ],
+   "verified_identity": false,
+   "primary_source_count": 0,
+   "sources": []
+  },
+  {
+   "name": "Robin D. Laws",
+   "kind": "gm",
+   "lenses": [
+    "gm_craft",
+    "mystery"
+   ],
+   "verified_identity": false,
+   "primary_source_count": 0,
+   "sources": []
+  },
+  {
+   "name": "Gareth Ryder-Hanrahan",
+   "kind": "gm",
+   "lenses": [
+    "gm_craft",
+    "mystery",
+    "horror"
+   ],
+   "verified_identity": false,
+   "primary_source_count": 0,
+   "sources": []
+  },
+  {
+   "name": "Kevin Kulp",
+   "kind": "gm",
+   "lenses": [
+    "gm_craft",
+    "mystery"
+   ],
+   "verified_identity": false,
+   "primary_source_count": 0,
+   "sources": []
+  },
+  {
+   "name": "Emily Care Boss",
+   "kind": "gm",
+   "lenses": [
+    "gm_craft"
+   ],
+   "verified_identity": false,
+   "primary_source_count": 0,
+   "sources": []
+  },
+  {
+   "name": "Ken Hite",
+   "kind": "gm",
+   "lenses": [
+    "gm_craft",
+    "horror"
+   ],
+   "verified_identity": false,
+   "primary_source_count": 0,
+   "sources": []
+  },
+  {
+   "name": "Elisa Teague",
+   "kind": "gm",
+   "lenses": [
+    "gm_craft"
+   ],
+   "verified_identity": false,
+   "primary_source_count": 0,
+   "sources": []
+  },
+  {
+   "name": "Luke Hart",
+   "kind": "gm",
+   "lenses": [
+    "gm_craft"
+   ],
+   "verified_identity": false,
+   "primary_source_count": 0,
+   "sources": []
+  },
+  {
+   "name": "Margaret Weis",
+   "kind": "gm",
+   "lenses": [
+    "gm_craft"
+   ],
+   "verified_identity": false,
+   "primary_source_count": 0,
+   "sources": []
+  },
+  {
+   "name": "Tracy Hickman",
+   "kind": "gm",
+   "lenses": [
+    "gm_craft"
+   ],
+   "verified_identity": false,
+   "primary_source_count": 0,
+   "sources": []
+  },
+  {
+   "name": "Jimmy Wong",
+   "kind": "gm",
+   "lenses": [
+    "gm_craft"
+   ],
+   "verified_identity": false,
+   "primary_source_count": 0,
+   "sources": []
+  },
+  {
+   "name": "Greg Egan",
+   "kind": "author",
+   "lenses": [
+    "hard_science"
+   ],
+   "verified_identity": false,
+   "primary_source_count": 0,
+   "sources": []
+  },
+  {
+   "name": "Andy Weir",
+   "kind": "author",
+   "lenses": [
+    "hard_science"
+   ],
+   "verified_identity": false,
+   "primary_source_count": 0,
+   "sources": []
+  },
+  {
+   "name": "Kim Stanley Robinson",
+   "kind": "author",
+   "lenses": [
+    "hard_science",
+    "politics_war",
+    "economy_trade"
+   ],
+   "verified_identity": false,
+   "primary_source_count": 0,
+   "sources": []
+  },
+  {
+   "name": "Alastair Reynolds",
+   "kind": "author",
+   "lenses": [
+    "hard_science"
+   ],
+   "verified_identity": false,
+   "primary_source_count": 0,
+   "sources": []
+  },
+  {
+   "name": "Neal Stephenson",
+   "kind": "author",
+   "lenses": [
+    "hard_science"
+   ],
+   "verified_identity": false,
+   "primary_source_count": 0,
+   "sources": []
+  },
+  {
+   "name": "Stephen Baxter",
+   "kind": "author",
+   "lenses": [
+    "hard_science"
+   ],
+   "verified_identity": false,
+   "primary_source_count": 0,
+   "sources": []
+  },
+  {
+   "name": "Peter Watts",
+   "kind": "author",
+   "lenses": [
+    "hard_science",
+    "horror"
+   ],
+   "verified_identity": false,
+   "primary_source_count": 0,
+   "sources": []
+  },
+  {
+   "name": "Hal Clement",
+   "kind": "author",
+   "lenses": [
+    "hard_science"
+   ],
+   "verified_identity": false,
+   "primary_source_count": 0,
+   "sources": []
+  },
+  {
+   "name": "Greg Bear",
+   "kind": "author",
+   "lenses": [
+    "hard_science"
+   ],
+   "verified_identity": false,
+   "primary_source_count": 0,
+   "sources": []
+  },
+  {
+   "name": "Robert J. Sawyer",
+   "kind": "author",
+   "lenses": [
+    "hard_science"
+   ],
+   "verified_identity": false,
+   "primary_source_count": 0,
+   "sources": []
+  },
+  {
+   "name": "Charles Stross",
+   "kind": "author",
+   "lenses": [
+    "hard_science"
+   ],
+   "verified_identity": false,
+   "primary_source_count": 0,
+   "sources": []
+  },
+  {
+   "name": "Iain M. Banks",
+   "kind": "author",
+   "lenses": [
+    "hard_science"
+   ],
+   "verified_identity": false,
+   "primary_source_count": 0,
+   "sources": []
+  },
+  {
+   "name": "James S. A. Corey",
+   "kind": "author",
+   "lenses": [
+    "hard_science"
+   ],
+   "verified_identity": false,
+   "primary_source_count": 0,
+   "sources": []
+  },
+  {
+   "name": "Arkady Martine",
+   "kind": "author",
+   "lenses": [
+    "hard_science"
+   ],
+   "verified_identity": false,
+   "primary_source_count": 0,
+   "sources": []
+  },
+  {
+   "name": "C.J. Cherryh",
+   "kind": "author",
+   "lenses": [
+    "hard_science"
+   ],
+   "verified_identity": false,
+   "primary_source_count": 0,
+   "sources": []
+  },
+  {
+   "name": "David Weber",
+   "kind": "author",
+   "lenses": [
+    "hard_science"
+   ],
+   "verified_identity": false,
+   "primary_source_count": 0,
+   "sources": []
+  },
+  {
+   "name": "Frank Herbert",
+   "kind": "author",
+   "lenses": [
+    "hard_science",
+    "politics_war",
+    "myth_worldbuilding"
+   ],
+   "verified_identity": false,
+   "primary_source_count": 0,
+   "sources": []
+  },
+  {
+   "name": "Orson Scott Card",
+   "kind": "author",
+   "lenses": [
+    "hard_science"
+   ],
+   "verified_identity": false,
+   "primary_source_count": 0,
+   "sources": []
+  },
+  {
+   "name": "Brian Aldiss",
+   "kind": "author",
+   "lenses": [
+    "hard_science"
+   ],
+   "verified_identity": false,
+   "primary_source_count": 0,
+   "sources": []
+  },
+  {
+   "name": "Robert Silverberg",
+   "kind": "author",
+   "lenses": [
+    "hard_science"
+   ],
+   "verified_identity": false,
+   "primary_source_count": 0,
+   "sources": []
+  },
+  {
+   "name": "Philip José Farmer",
+   "kind": "author",
+   "lenses": [
+    "hard_science"
+   ],
+   "verified_identity": false,
+   "primary_source_count": 0,
+   "sources": []
+  },
+  {
+   "name": "J.G. Ballard",
+   "kind": "author",
+   "lenses": [
+    "hard_science"
+   ],
+   "verified_identity": false,
+   "primary_source_count": 0,
+   "sources": []
+  },
+  {
+   "name": "Octavia E. Butler",
+   "kind": "author",
+   "lenses": [
+    "hard_science",
+    "social_realism"
+   ],
+   "verified_identity": false,
+   "primary_source_count": 0,
+   "sources": []
+  },
+  {
+   "name": "David Walton",
+   "kind": "author",
+   "lenses": [
+    "hard_science"
+   ],
+   "verified_identity": false,
+   "primary_source_count": 0,
+   "sources": []
+  },
+  {
+   "name": "Pierce Brown",
+   "kind": "author",
+   "lenses": [
+    "hard_science"
+   ],
+   "verified_identity": false,
+   "primary_source_count": 0,
+   "sources": []
+  },
+  {
+   "name": "Veronica Roth",
+   "kind": "author",
+   "lenses": [
+    "hard_science"
+   ],
+   "verified_identity": false,
+   "primary_source_count": 0,
+   "sources": []
+  },
+  {
+   "name": "George Lucas",
+   "kind": "author",
+   "lenses": [
+    "hard_science"
+   ],
+   "verified_identity": false,
+   "primary_source_count": 0,
+   "sources": []
+  },
+  {
+   "name": "Martha Wells",
+   "kind": "author",
+   "lenses": [
+    "hard_science"
+   ],
+   "verified_identity": false,
+   "primary_source_count": 0,
+   "sources": []
+  },
+  {
+   "name": "Richard Morgan",
+   "kind": "author",
+   "lenses": [
+    "hard_science"
+   ],
+   "verified_identity": false,
+   "primary_source_count": 0,
+   "sources": []
+  },
+  {
+   "name": "Christopher Brown",
+   "kind": "author",
+   "lenses": [
+    "hard_science"
+   ],
+   "verified_identity": false,
+   "primary_source_count": 0,
+   "sources": []
+  },
+  {
+   "name": "Michael Ridpath",
+   "kind": "author",
+   "lenses": [
+    "economy_trade"
+   ],
+   "verified_identity": false,
+   "primary_source_count": 0,
+   "sources": []
+  },
+  {
+   "name": "Murray Ruggiero Jr.",
+   "kind": "author",
+   "lenses": [
+    "economy_trade"
+   ],
+   "verified_identity": false,
+   "primary_source_count": 0,
+   "sources": [],
+   "confidence_note": "identity/discipline not verified; listed by the World Owner"
+  },
+  {
+   "name": "Adrienne Laris Toghraie",
+   "kind": "author",
+   "lenses": [
+    "economy_trade"
+   ],
+   "verified_identity": false,
+   "primary_source_count": 0,
+   "sources": [],
+   "confidence_note": "identity/discipline not verified; listed by the World Owner"
+  },
+  {
+   "name": "Daniel Schlaepfer",
+   "kind": "author",
+   "lenses": [
+    "economy_trade"
+   ],
+   "verified_identity": false,
+   "primary_source_count": 0,
+   "sources": [],
+   "confidence_note": "identity/discipline not verified; listed by the World Owner"
+  },
+  {
+   "name": "Andrew Aziz",
+   "kind": "author",
+   "lenses": [
+    "economy_trade"
+   ],
+   "verified_identity": false,
+   "primary_source_count": 0,
+   "sources": [],
+   "confidence_note": "identity/discipline not verified; listed by the World Owner"
+  },
+  {
+   "name": "Leo Tolstoy",
+   "kind": "author",
+   "lenses": [
+    "social_realism"
+   ],
+   "verified_identity": false,
+   "primary_source_count": 0,
+   "sources": []
+  },
+  {
+   "name": "Fyodor Dostoevsky",
+   "kind": "author",
+   "lenses": [
+    "social_realism"
+   ],
+   "verified_identity": false,
+   "primary_source_count": 0,
+   "sources": []
+  },
+  {
+   "name": "Jane Austen",
+   "kind": "author",
+   "lenses": [
+    "social_realism",
+    "romance_relationships"
+   ],
+   "verified_identity": false,
+   "primary_source_count": 0,
+   "sources": []
+  },
+  {
+   "name": "George Eliot",
+   "kind": "author",
+   "lenses": [
+    "social_realism"
+   ],
+   "verified_identity": false,
+   "primary_source_count": 0,
+   "sources": []
+  },
+  {
+   "name": "Émile Zola",
+   "kind": "author",
+   "lenses": [
+    "social_realism"
+   ],
+   "verified_identity": false,
+   "primary_source_count": 0,
+   "sources": []
+  },
+  {
+   "name": "Elizabeth Strout",
+   "kind": "author",
+   "lenses": [
+    "social_realism"
+   ],
+   "verified_identity": false,
+   "primary_source_count": 0,
+   "sources": []
+  },
+  {
+   "name": "Zadie Smith",
+   "kind": "author",
+   "lenses": [
+    "social_realism"
+   ],
+   "verified_identity": false,
+   "primary_source_count": 0,
+   "sources": []
+  },
+  {
+   "name": "David Foster Wallace",
+   "kind": "author",
+   "lenses": [
+    "social_realism"
+   ],
+   "verified_identity": false,
+   "primary_source_count": 0,
+   "sources": []
+  },
+  {
+   "name": "Michael Chabon",
+   "kind": "author",
+   "lenses": [
+    "social_realism"
+   ],
+   "verified_identity": false,
+   "primary_source_count": 0,
+   "sources": []
+  },
+  {
+   "name": "Edward Rutherfurd",
+   "kind": "author",
+   "lenses": [
+    "social_realism"
+   ],
+   "verified_identity": false,
+   "primary_source_count": 0,
+   "sources": []
+  },
+  {
+   "name": "James Michener",
+   "kind": "author",
+   "lenses": [
+    "social_realism"
+   ],
+   "verified_identity": false,
+   "primary_source_count": 0,
+   "sources": []
+  },
+  {
+   "name": "George Orwell",
+   "kind": "author",
+   "lenses": [
+    "social_realism",
+    "politics_war"
+   ],
+   "verified_identity": false,
+   "primary_source_count": 0,
+   "sources": []
+  },
+  {
+   "name": "Madeline Miller",
+   "kind": "author",
+   "lenses": [
+    "social_realism"
+   ],
+   "verified_identity": false,
+   "primary_source_count": 0,
+   "sources": []
+  },
+  {
+   "name": "Bernard Cornwell",
+   "kind": "author",
+   "lenses": [
+    "social_realism"
+   ],
+   "verified_identity": false,
+   "primary_source_count": 0,
+   "sources": []
+  },
+  {
+   "name": "Ruth Rendell",
+   "kind": "author",
+   "lenses": [
+    "mystery"
+   ],
+   "verified_identity": false,
+   "primary_source_count": 0,
+   "sources": []
+  },
+  {
+   "name": "Dorothy L. Sayers",
+   "kind": "author",
+   "lenses": [
+    "mystery"
+   ],
+   "verified_identity": false,
+   "primary_source_count": 0,
+   "sources": []
+  },
+  {
+   "name": "Arthur Conan Doyle",
+   "kind": "author",
+   "lenses": [
+    "mystery"
+   ],
+   "verified_identity": false,
+   "primary_source_count": 0,
+   "sources": []
+  },
+  {
+   "name": "Robert Galbraith",
+   "kind": "author",
+   "lenses": [
+    "mystery"
+   ],
+   "verified_identity": false,
+   "primary_source_count": 0,
+   "sources": [],
+   "aliases": [
+    "pseudonym of J. K. Rowling"
+   ]
+  },
+  {
+   "name": "William Ritter",
+   "kind": "author",
+   "lenses": [
+    "mystery"
+   ],
+   "verified_identity": false,
+   "primary_source_count": 0,
+   "sources": []
+  },
+  {
+   "name": "Stephen King",
+   "kind": "author",
+   "lenses": [
+    "horror",
+    "social_realism"
+   ],
+   "verified_identity": false,
+   "primary_source_count": 0,
+   "sources": []
+  },
+  {
+   "name": "H.P. Lovecraft",
+   "kind": "author",
+   "lenses": [
+    "horror"
+   ],
+   "verified_identity": false,
+   "primary_source_count": 0,
+   "sources": []
+  },
+  {
+   "name": "Anne Rice",
+   "kind": "author",
+   "lenses": [
+    "horror"
+   ],
+   "verified_identity": false,
+   "primary_source_count": 0,
+   "sources": []
+  },
+  {
+   "name": "Shirley Jackson",
+   "kind": "author",
+   "lenses": [
+    "horror"
+   ],
+   "verified_identity": false,
+   "primary_source_count": 0,
+   "sources": []
+  },
+  {
+   "name": "Dean Koontz",
+   "kind": "author",
+   "lenses": [
+    "horror"
+   ],
+   "verified_identity": false,
+   "primary_source_count": 0,
+   "sources": []
+  },
+  {
+   "name": "T. Kingfisher",
+   "kind": "author",
+   "lenses": [
+    "horror",
+    "myth_worldbuilding"
+   ],
+   "verified_identity": false,
+   "primary_source_count": 0,
+   "sources": []
+  },
+  {
+   "name": "Silvia Moreno-Garcia",
+   "kind": "author",
+   "lenses": [
+    "horror"
+   ],
+   "verified_identity": false,
+   "primary_source_count": 0,
+   "sources": []
+  },
+  {
+   "name": "Brandon Sanderson",
+   "kind": "author",
+   "lenses": [
+    "hard_magic",
+    "myth_worldbuilding"
+   ],
+   "verified_identity": false,
+   "primary_source_count": 0,
+   "sources": []
+  },
+  {
+   "name": "Will Wight",
+   "kind": "author",
+   "lenses": [
+    "hard_magic"
+   ],
+   "verified_identity": false,
+   "primary_source_count": 0,
+   "sources": []
+  },
+  {
+   "name": "Brent Weeks",
+   "kind": "author",
+   "lenses": [
+    "hard_magic"
+   ],
+   "verified_identity": false,
+   "primary_source_count": 0,
+   "sources": []
+  },
+  {
+   "name": "Robert Jordan",
+   "kind": "author",
+   "lenses": [
+    "hard_magic"
+   ],
+   "verified_identity": false,
+   "primary_source_count": 0,
+   "sources": []
+  },
+  {
+   "name": "Patrick Rothfuss",
+   "kind": "author",
+   "lenses": [
+    "hard_magic"
+   ],
+   "verified_identity": false,
+   "primary_source_count": 0,
+   "sources": []
+  },
+  {
+   "name": "L.E. Modesitt Jr.",
+   "kind": "author",
+   "lenses": [
+    "hard_magic"
+   ],
+   "verified_identity": false,
+   "primary_source_count": 0,
+   "sources": []
+  },
+  {
+   "name": "Brian McClellan",
+   "kind": "author",
+   "lenses": [
+    "hard_magic"
+   ],
+   "verified_identity": false,
+   "primary_source_count": 0,
+   "sources": []
+  },
+  {
+   "name": "Django Wexler",
+   "kind": "author",
+   "lenses": [
+    "hard_magic"
+   ],
+   "verified_identity": false,
+   "primary_source_count": 0,
+   "sources": []
+  },
+  {
+   "name": "Jim Butcher",
+   "kind": "author",
+   "lenses": [
+    "hard_magic",
+    "mystery"
+   ],
+   "verified_identity": false,
+   "primary_source_count": 0,
+   "sources": []
+  },
+  {
+   "name": "Max Gladstone",
+   "kind": "author",
+   "lenses": [
+    "hard_magic",
+    "economy_trade",
+    "politics_war"
+   ],
+   "verified_identity": false,
+   "primary_source_count": 0,
+   "sources": []
+  },
+  {
+   "name": "Fonda Lee",
+   "kind": "author",
+   "lenses": [
+    "hard_magic",
+    "politics_war"
+   ],
+   "verified_identity": false,
+   "primary_source_count": 0,
+   "sources": []
+  },
+  {
+   "name": "R.F. Kuang",
+   "kind": "author",
+   "lenses": [
+    "hard_magic",
+    "politics_war"
+   ],
+   "verified_identity": false,
+   "primary_source_count": 0,
+   "sources": []
+  },
+  {
+   "name": "Leigh Bardugo",
+   "kind": "author",
+   "lenses": [
+    "hard_magic"
+   ],
+   "verified_identity": false,
+   "primary_source_count": 0,
+   "sources": []
+  },
+  {
+   "name": "N.K. Jemisin",
+   "kind": "author",
+   "lenses": [
+    "hard_magic",
+    "myth_worldbuilding",
+    "politics_war"
+   ],
+   "verified_identity": false,
+   "primary_source_count": 0,
+   "sources": []
+  },
+  {
+   "name": "Diane Duane",
+   "kind": "author",
+   "lenses": [
+    "hard_magic"
+   ],
+   "verified_identity": false,
+   "primary_source_count": 0,
+   "sources": []
+  },
+  {
+   "name": "Christopher Paolini",
+   "kind": "author",
+   "lenses": [
+    "hard_magic"
+   ],
+   "verified_identity": false,
+   "primary_source_count": 0,
+   "sources": []
+  },
+  {
+   "name": "Larry Correia",
+   "kind": "author",
+   "lenses": [
+    "hard_magic"
+   ],
+   "verified_identity": false,
+   "primary_source_count": 0,
+   "sources": []
+  },
+  {
+   "name": "Lyndon Hardy",
+   "kind": "author",
+   "lenses": [
+    "hard_magic"
+   ],
+   "verified_identity": false,
+   "primary_source_count": 0,
+   "sources": [],
+   "aliases": [
+    "Lyndon Hard"
+   ]
+  },
+  {
+   "name": "George R.R. Martin",
+   "kind": "author",
+   "lenses": [
+    "politics_war"
+   ],
+   "verified_identity": false,
+   "primary_source_count": 0,
+   "sources": []
+  },
+  {
+   "name": "Joe Abercrombie",
+   "kind": "author",
+   "lenses": [
+    "politics_war"
+   ],
+   "verified_identity": false,
+   "primary_source_count": 0,
+   "sources": []
+  },
+  {
+   "name": "Guy Gavriel Kay",
+   "kind": "author",
+   "lenses": [
+    "politics_war",
+    "social_realism"
+   ],
+   "verified_identity": false,
+   "primary_source_count": 0,
+   "sources": []
+  },
+  {
+   "name": "Katherine Addison",
+   "kind": "author",
+   "lenses": [
+    "politics_war"
+   ],
+   "verified_identity": false,
+   "primary_source_count": 0,
+   "sources": []
+  },
+  {
+   "name": "Seth Dickinson",
+   "kind": "author",
+   "lenses": [
+    "politics_war",
+    "economy_trade"
+   ],
+   "verified_identity": false,
+   "primary_source_count": 0,
+   "sources": []
+  },
+  {
+   "name": "Lois McMaster Bujold",
+   "kind": "author",
+   "lenses": [
+    "politics_war",
+    "hard_science",
+    "romance_relationships"
+   ],
+   "verified_identity": false,
+   "primary_source_count": 0,
+   "sources": []
+  },
+  {
+   "name": "Daniel Abraham",
+   "kind": "author",
+   "lenses": [
+    "politics_war",
+    "economy_trade"
+   ],
+   "verified_identity": false,
+   "primary_source_count": 0,
+   "sources": []
+  },
+  {
+   "name": "K.J. Parker",
+   "kind": "author",
+   "lenses": [
+    "politics_war",
+    "economy_trade"
+   ],
+   "verified_identity": false,
+   "primary_source_count": 0,
+   "sources": [],
+   "aliases": [
+    "KJ Parker"
+   ]
+  },
+  {
+   "name": "Scott Lynch",
+   "kind": "author",
+   "lenses": [
+    "politics_war",
+    "economy_trade"
+   ],
+   "verified_identity": false,
+   "primary_source_count": 0,
+   "sources": []
+  },
+  {
+   "name": "Megan Whalen Turner",
+   "kind": "author",
+   "lenses": [
+    "politics_war"
+   ],
+   "verified_identity": false,
+   "primary_source_count": 0,
+   "sources": []
+  },
+  {
+   "name": "Glen Cook",
+   "kind": "author",
+   "lenses": [
+    "politics_war"
+   ],
+   "verified_identity": false,
+   "primary_source_count": 0,
+   "sources": []
+  },
+  {
+   "name": "Steven Erikson",
+   "kind": "author",
+   "lenses": [
+    "politics_war"
+   ],
+   "verified_identity": false,
+   "primary_source_count": 0,
+   "sources": []
+  },
+  {
+   "name": "R. Scott Bakker",
+   "kind": "author",
+   "lenses": [
+    "politics_war"
+   ],
+   "verified_identity": false,
+   "primary_source_count": 0,
+   "sources": []
+  },
+  {
+   "name": "Mark Lawrence",
+   "kind": "author",
+   "lenses": [
+    "politics_war"
+   ],
+   "verified_identity": false,
+   "primary_source_count": 0,
+   "sources": []
+  },
+  {
+   "name": "Anna Smith Spark",
+   "kind": "author",
+   "lenses": [
+    "politics_war"
+   ],
+   "verified_identity": false,
+   "primary_source_count": 0,
+   "sources": []
+  },
+  {
+   "name": "Ed McDonald",
+   "kind": "author",
+   "lenses": [
+    "politics_war"
+   ],
+   "verified_identity": false,
+   "primary_source_count": 0,
+   "sources": []
+  },
+  {
+   "name": "Miles Cameron",
+   "kind": "author",
+   "lenses": [
+    "politics_war"
+   ],
+   "verified_identity": false,
+   "primary_source_count": 0,
+   "sources": []
+  },
+  {
+   "name": "Richard Swan",
+   "kind": "author",
+   "lenses": [
+    "politics_war"
+   ],
+   "verified_identity": false,
+   "primary_source_count": 0,
+   "sources": []
+  },
+  {
+   "name": "Katherine Kurtz",
+   "kind": "author",
+   "lenses": [
+    "politics_war"
+   ],
+   "verified_identity": false,
+   "primary_source_count": 0,
+   "sources": []
+  },
+  {
+   "name": "Robert Jackson Bennett",
+   "kind": "author",
+   "lenses": [
+    "politics_war",
+    "mystery",
+    "hard_magic"
+   ],
+   "verified_identity": false,
+   "primary_source_count": 0,
+   "sources": []
+  },
+  {
+   "name": "Steven Brust",
+   "kind": "author",
+   "lenses": [
+    "politics_war"
+   ],
+   "verified_identity": false,
+   "primary_source_count": 0,
+   "sources": []
+  },
+  {
+   "name": "Elizabeth Moon",
+   "kind": "author",
+   "lenses": [
+    "politics_war"
+   ],
+   "verified_identity": false,
+   "primary_source_count": 0,
+   "sources": []
+  },
+  {
+   "name": "David Drake",
+   "kind": "author",
+   "lenses": [
+    "politics_war"
+   ],
+   "verified_identity": false,
+   "primary_source_count": 0,
+   "sources": []
+  },
+  {
+   "name": "David Gemmell",
+   "kind": "author",
+   "lenses": [
+    "politics_war"
+   ],
+   "verified_identity": false,
+   "primary_source_count": 0,
+   "sources": []
+  },
+  {
+   "name": "Matthew Stover",
+   "kind": "author",
+   "lenses": [
+    "politics_war"
+   ],
+   "verified_identity": false,
+   "primary_source_count": 0,
+   "sources": []
+  },
+  {
+   "name": "Raymond E. Feist",
+   "kind": "author",
+   "lenses": [
+    "politics_war"
+   ],
+   "verified_identity": false,
+   "primary_source_count": 0,
+   "sources": []
+  },
+  {
+   "name": "Janny Wurts",
+   "kind": "author",
+   "lenses": [
+    "politics_war"
+   ],
+   "verified_identity": false,
+   "primary_source_count": 0,
+   "sources": []
+  },
+  {
+   "name": "Tad Williams",
+   "kind": "author",
+   "lenses": [
+    "politics_war"
+   ],
+   "verified_identity": false,
+   "primary_source_count": 0,
+   "sources": []
+  },
+  {
+   "name": "Robin Hobb",
+   "kind": "author",
+   "lenses": [
+    "politics_war",
+    "social_realism"
+   ],
+   "verified_identity": false,
+   "primary_source_count": 0,
+   "sources": []
+  },
+  {
+   "name": "Elizabeth Bear",
+   "kind": "author",
+   "lenses": [
+    "politics_war"
+   ],
+   "verified_identity": false,
+   "primary_source_count": 0,
+   "sources": []
+  },
+  {
+   "name": "Michael J. Sullivan",
+   "kind": "author",
+   "lenses": [
+    "politics_war"
+   ],
+   "verified_identity": false,
+   "primary_source_count": 0,
+   "sources": []
+  },
+  {
+   "name": "Nicholas Eames",
+   "kind": "author",
+   "lenses": [
+    "politics_war"
+   ],
+   "verified_identity": false,
+   "primary_source_count": 0,
+   "sources": []
+  },
+  {
+   "name": "Zachary Pike",
+   "kind": "author",
+   "lenses": [
+    "politics_war"
+   ],
+   "verified_identity": false,
+   "primary_source_count": 0,
+   "sources": []
+  },
+  {
+   "name": "Robert E. Howard",
+   "kind": "author",
+   "lenses": [
+    "politics_war"
+   ],
+   "verified_identity": false,
+   "primary_source_count": 0,
+   "sources": []
+  },
+  {
+   "name": "Michael Moorcock",
+   "kind": "author",
+   "lenses": [
+    "politics_war"
+   ],
+   "verified_identity": false,
+   "primary_source_count": 0,
+   "sources": []
+  },
+  {
+   "name": "R.A. Salvatore",
+   "kind": "author",
+   "lenses": [
+    "politics_war"
+   ],
+   "verified_identity": false,
+   "primary_source_count": 0,
+   "sources": []
+  },
+  {
+   "name": "Terry Brooks",
+   "kind": "author",
+   "lenses": [
+    "politics_war"
+   ],
+   "verified_identity": false,
+   "primary_source_count": 0,
+   "sources": []
+  },
+  {
+   "name": "Stephen R. Lawhead",
+   "kind": "author",
+   "lenses": [
+    "politics_war"
+   ],
+   "verified_identity": false,
+   "primary_source_count": 0,
+   "sources": []
+  },
+  {
+   "name": "J.R.R. Tolkien",
+   "kind": "author",
+   "lenses": [
+    "myth_worldbuilding",
+    "politics_war"
+   ],
+   "verified_identity": false,
+   "primary_source_count": 0,
+   "sources": []
+  },
+  {
+   "name": "Ursula K. Le Guin",
+   "kind": "author",
+   "lenses": [
+    "myth_worldbuilding",
+    "hard_science",
+    "social_realism"
+   ],
+   "verified_identity": false,
+   "primary_source_count": 0,
+   "sources": []
+  },
+  {
+   "name": "Neil Gaiman",
+   "kind": "author",
+   "lenses": [
+    "myth_worldbuilding"
+   ],
+   "verified_identity": false,
+   "primary_source_count": 0,
+   "sources": []
+  },
+  {
+   "name": "China Miéville",
+   "kind": "author",
+   "lenses": [
+    "myth_worldbuilding",
+    "horror",
+    "politics_war"
+   ],
+   "verified_identity": false,
+   "primary_source_count": 0,
+   "sources": []
+  },
+  {
+   "name": "Mervyn Peake",
+   "kind": "author",
+   "lenses": [
+    "myth_worldbuilding"
+   ],
+   "verified_identity": false,
+   "primary_source_count": 0,
+   "sources": []
+  },
+  {
+   "name": "Terry Pratchett",
+   "kind": "author",
+   "lenses": [
+    "myth_worldbuilding",
+    "politics_war",
+    "social_realism"
+   ],
+   "verified_identity": false,
+   "primary_source_count": 0,
+   "sources": []
+  },
+  {
+   "name": "Jack Vance",
+   "kind": "author",
+   "lenses": [
+    "myth_worldbuilding"
+   ],
+   "verified_identity": false,
+   "primary_source_count": 0,
+   "sources": []
+  },
+  {
+   "name": "Roger Zelazny",
+   "kind": "author",
+   "lenses": [
+    "myth_worldbuilding"
+   ],
+   "verified_identity": false,
+   "primary_source_count": 0,
+   "sources": []
+  },
+  {
+   "name": "Diana Wynne Jones",
+   "kind": "author",
+   "lenses": [
+    "myth_worldbuilding"
+   ],
+   "verified_identity": false,
+   "primary_source_count": 0,
+   "sources": []
+  },
+  {
+   "name": "Philip Pullman",
+   "kind": "author",
+   "lenses": [
+    "myth_worldbuilding"
+   ],
+   "verified_identity": false,
+   "primary_source_count": 0,
+   "sources": []
+  },
+  {
+   "name": "Sofia Samatar",
+   "kind": "author",
+   "lenses": [
+    "myth_worldbuilding"
+   ],
+   "verified_identity": false,
+   "primary_source_count": 0,
+   "sources": []
+  },
+  {
+   "name": "Patricia McKillip",
+   "kind": "author",
+   "lenses": [
+    "myth_worldbuilding"
+   ],
+   "verified_identity": false,
+   "primary_source_count": 0,
+   "sources": []
+  },
+  {
+   "name": "Charles de Lint",
+   "kind": "author",
+   "lenses": [
+    "myth_worldbuilding"
+   ],
+   "verified_identity": false,
+   "primary_source_count": 0,
+   "sources": []
+  },
+  {
+   "name": "Robin McKinley",
+   "kind": "author",
+   "lenses": [
+    "myth_worldbuilding"
+   ],
+   "verified_identity": false,
+   "primary_source_count": 0,
+   "sources": []
+  },
+  {
+   "name": "Tim Powers",
+   "kind": "author",
+   "lenses": [
+    "myth_worldbuilding",
+    "horror"
+   ],
+   "verified_identity": false,
+   "primary_source_count": 0,
+   "sources": []
+  },
+  {
+   "name": "Laini Taylor",
+   "kind": "author",
+   "lenses": [
+    "myth_worldbuilding"
+   ],
+   "verified_identity": false,
+   "primary_source_count": 0,
+   "sources": []
+  },
+  {
+   "name": "V.E. Schwab",
+   "kind": "author",
+   "lenses": [
+    "myth_worldbuilding"
+   ],
+   "verified_identity": false,
+   "primary_source_count": 0,
+   "sources": []
+  },
+  {
+   "name": "Seanan McGuire",
+   "kind": "author",
+   "lenses": [
+    "myth_worldbuilding"
+   ],
+   "verified_identity": false,
+   "primary_source_count": 0,
+   "sources": []
+  },
+  {
+   "name": "S.A. Chakraborty",
+   "kind": "author",
+   "lenses": [
+    "myth_worldbuilding"
+   ],
+   "verified_identity": false,
+   "primary_source_count": 0,
+   "sources": []
+  },
+  {
+   "name": "Marie Brennan",
+   "kind": "author",
+   "lenses": [
+    "myth_worldbuilding"
+   ],
+   "verified_identity": false,
+   "primary_source_count": 0,
+   "sources": []
+  },
+  {
+   "name": "Samantha Shannon",
+   "kind": "author",
+   "lenses": [
+    "myth_worldbuilding"
+   ],
+   "verified_identity": false,
+   "primary_source_count": 0,
+   "sources": []
+  },
+  {
+   "name": "Nisi Shawl",
+   "kind": "author",
+   "lenses": [
+    "myth_worldbuilding"
+   ],
+   "verified_identity": false,
+   "primary_source_count": 0,
+   "sources": []
+  },
+  {
+   "name": "Fran Wilde",
+   "kind": "author",
+   "lenses": [
+    "myth_worldbuilding"
+   ],
+   "verified_identity": false,
+   "primary_source_count": 0,
+   "sources": []
+  },
+  {
+   "name": "Liz Williams",
+   "kind": "author",
+   "lenses": [
+    "myth_worldbuilding"
+   ],
+   "verified_identity": false,
+   "primary_source_count": 0,
+   "sources": []
+  },
+  {
+   "name": "Michael Scott",
+   "kind": "author",
+   "lenses": [
+    "myth_worldbuilding"
+   ],
+   "verified_identity": false,
+   "primary_source_count": 0,
+   "sources": []
+  },
+  {
+   "name": "Gregory Frost",
+   "kind": "author",
+   "lenses": [
+    "myth_worldbuilding"
+   ],
+   "verified_identity": false,
+   "primary_source_count": 0,
+   "sources": []
+  },
+  {
+   "name": "K.D. Edwards",
+   "kind": "author",
+   "lenses": [
+    "myth_worldbuilding"
+   ],
+   "verified_identity": false,
+   "primary_source_count": 0,
+   "sources": []
+  },
+  {
+   "name": "Mark Charan Newton",
+   "kind": "author",
+   "lenses": [
+    "myth_worldbuilding"
+   ],
+   "verified_identity": false,
+   "primary_source_count": 0,
+   "sources": []
+  },
+  {
+   "name": "Marjorie Liu",
+   "kind": "author",
+   "lenses": [
+    "myth_worldbuilding"
+   ],
+   "verified_identity": false,
+   "primary_source_count": 0,
+   "sources": []
+  },
+  {
+   "name": "Rachel Caine",
+   "kind": "author",
+   "lenses": [
+    "myth_worldbuilding"
+   ],
+   "verified_identity": false,
+   "primary_source_count": 0,
+   "sources": []
+  },
+  {
+   "name": "J. K. Rowling",
+   "kind": "author",
+   "lenses": [
+    "myth_worldbuilding"
+   ],
+   "verified_identity": false,
+   "primary_source_count": 0,
+   "sources": []
+  },
+  {
+   "name": "Anne McCaffrey",
+   "kind": "author",
+   "lenses": [
+    "myth_worldbuilding"
+   ],
+   "verified_identity": false,
+   "primary_source_count": 0,
+   "sources": []
+  },
+  {
+   "name": "Mercedes Lackey",
+   "kind": "author",
+   "lenses": [
+    "myth_worldbuilding"
+   ],
+   "verified_identity": false,
+   "primary_source_count": 0,
+   "sources": []
+  },
+  {
+   "name": "Sharon Shinn",
+   "kind": "author",
+   "lenses": [
+    "myth_worldbuilding"
+   ],
+   "verified_identity": false,
+   "primary_source_count": 0,
+   "sources": []
+  },
+  {
+   "name": "Anne Bishop",
+   "kind": "author",
+   "lenses": [
+    "myth_worldbuilding"
+   ],
+   "verified_identity": false,
+   "primary_source_count": 0,
+   "sources": []
+  },
+  {
+   "name": "Patricia C. Wrede",
+   "kind": "author",
+   "lenses": [
+    "myth_worldbuilding"
+   ],
+   "verified_identity": false,
+   "primary_source_count": 0,
+   "sources": []
+  },
+  {
+   "name": "Caroline Stevermer",
+   "kind": "author",
+   "lenses": [
+    "myth_worldbuilding"
+   ],
+   "verified_identity": false,
+   "primary_source_count": 0,
+   "sources": []
+  },
+  {
+   "name": "Mary Robinette Kowal",
+   "kind": "author",
+   "lenses": [
+    "myth_worldbuilding"
+   ],
+   "verified_identity": false,
+   "primary_source_count": 0,
+   "sources": []
+  },
+  {
+   "name": "Heather Rose Jones",
+   "kind": "author",
+   "lenses": [
+    "myth_worldbuilding"
+   ],
+   "verified_identity": false,
+   "primary_source_count": 0,
+   "sources": []
+  },
+  {
+   "name": "Davinia Evans",
+   "kind": "author",
+   "lenses": [
+    "myth_worldbuilding"
+   ],
+   "verified_identity": false,
+   "primary_source_count": 0,
+   "sources": []
+  },
+  {
+   "name": "Lindsay Schopfer",
+   "kind": "author",
+   "lenses": [
+    "myth_worldbuilding"
+   ],
+   "verified_identity": false,
+   "primary_source_count": 0,
+   "sources": []
+  },
+  {
+   "name": "Sarah J. Maas",
+   "kind": "author",
+   "lenses": [
+    "romance_relationships"
+   ],
+   "verified_identity": false,
+   "primary_source_count": 0,
+   "sources": []
+  },
+  {
+   "name": "Rebecca Yarros",
+   "kind": "author",
+   "lenses": [
+    "romance_relationships"
+   ],
+   "verified_identity": false,
+   "primary_source_count": 0,
+   "sources": []
+  },
+  {
+   "name": "Laurell K. Hamilton",
+   "kind": "author",
+   "lenses": [
+    "romance_relationships"
+   ],
+   "verified_identity": false,
+   "primary_source_count": 0,
+   "sources": []
+  },
+  {
+   "name": "Charlaine Harris",
+   "kind": "author",
+   "lenses": [
+    "romance_relationships"
+   ],
+   "verified_identity": false,
+   "primary_source_count": 0,
+   "sources": []
+  },
+  {
+   "name": "Kim Harrison",
+   "kind": "author",
+   "lenses": [
+    "romance_relationships"
+   ],
+   "verified_identity": false,
+   "primary_source_count": 0,
+   "sources": []
+  },
+  {
+   "name": "Patricia Briggs",
+   "kind": "author",
+   "lenses": [
+    "romance_relationships"
+   ],
+   "verified_identity": false,
+   "primary_source_count": 0,
+   "sources": []
+  },
+  {
+   "name": "Chelsea Monroe-Cassel",
+   "kind": "author",
+   "lenses": [
+    "food_culture"
+   ],
+   "verified_identity": false,
+   "primary_source_count": 0,
+   "sources": []
+  },
+  {
+   "name": "Jenn de la Vega",
+   "kind": "author",
+   "lenses": [
+    "food_culture"
+   ],
+   "verified_identity": false,
+   "primary_source_count": 0,
+   "sources": []
+  },
+  {
+   "name": "Victoria Rosenthal",
+   "kind": "author",
+   "lenses": [
+    "food_culture"
+   ],
+   "verified_identity": false,
+   "primary_source_count": 0,
+   "sources": []
+  },
+  {
+   "name": "Thea James",
+   "kind": "author",
+   "lenses": [
+    "food_culture"
+   ],
+   "verified_identity": false,
+   "primary_source_count": 0,
+   "sources": []
+  },
+  {
+   "name": "Robin Sloan",
+   "kind": "author",
+   "lenses": [
+    "food_culture"
+   ],
+   "verified_identity": false,
+   "primary_source_count": 0,
+   "sources": []
+  },
+  {
+   "name": "Gerald Brom",
+   "kind": "artist",
+   "lenses": [
+    "visual_art"
+   ],
+   "verified_identity": false,
+   "primary_source_count": 0,
+   "sources": []
+  },
+  {
+   "name": "Todd Lockwood",
+   "kind": "artist",
+   "lenses": [
+    "visual_art"
+   ],
+   "verified_identity": false,
+   "primary_source_count": 0,
+   "sources": []
+  },
+  {
+   "name": "Howard Pyle",
+   "kind": "artist",
+   "lenses": [
+    "visual_art"
+   ],
+   "verified_identity": false,
+   "primary_source_count": 0,
+   "sources": []
+  },
+  {
+   "name": "Ursula Vernon",
+   "kind": "artist",
+   "lenses": [
+    "visual_art"
+   ],
+   "verified_identity": false,
+   "primary_source_count": 0,
+   "sources": []
+  },
+  {
+   "name": "Chris Riddell",
+   "kind": "artist",
+   "lenses": [
+    "visual_art"
+   ],
+   "verified_identity": false,
+   "primary_source_count": 0,
+   "sources": []
+  },
+  {
+   "name": "Joy Sanchez-Taylor",
+   "kind": "scholar",
+   "lenses": [
+    "scholarship"
+   ],
+   "verified_identity": false,
+   "primary_source_count": 0,
+   "sources": []
+  },
+  {
+   "name": "Simon Clark (The RPGeeks)",
+   "kind": "unresolved",
+   "lenses": [],
+   "verified_identity": false,
+   "primary_source_count": 0,
+   "sources": [],
+   "confidence_note": "could not be confidently identified; resolve before use"
+  },
+  {
+   "name": "PalaeoGames",
+   "kind": "unresolved",
+   "lenses": [],
+   "verified_identity": false,
+   "primary_source_count": 0,
+   "sources": [],
+   "confidence_note": "could not be confidently identified; resolve before use"
+  },
+  {
+   "name": "GorillaOfDestiny",
+   "kind": "unresolved",
+   "lenses": [],
+   "verified_identity": false,
+   "primary_source_count": 0,
+   "sources": [],
+   "confidence_note": "could not be confidently identified; resolve before use"
+  },
+  {
+   "name": "Rudee Rossignol",
+   "kind": "unresolved",
+   "lenses": [],
+   "verified_identity": false,
+   "primary_source_count": 0,
+   "sources": [],
+   "confidence_note": "could not be confidently identified; resolve before use"
+  },
+  {
+   "name": "Heather Pagano",
+   "kind": "unresolved",
+   "lenses": [],
+   "verified_identity": false,
+   "primary_source_count": 0,
+   "sources": [],
+   "confidence_note": "could not be confidently identified; resolve before use"
+  },
+  {
+   "name": "Catherine Barson Eastis",
+   "kind": "unresolved",
+   "lenses": [],
+   "verified_identity": false,
+   "primary_source_count": 0,
+   "sources": [],
+   "confidence_note": "could not be confidently identified; resolve before use"
+  },
+  {
+   "name": "Samantha Vitale",
+   "kind": "unresolved",
+   "lenses": [],
+   "verified_identity": false,
+   "primary_source_count": 0,
+   "sources": [],
+   "confidence_note": "could not be confidently identified; resolve before use"
+  },
+  {
+   "name": "Paul Camp",
+   "kind": "unresolved",
+   "lenses": [],
+   "verified_identity": false,
+   "primary_source_count": 0,
+   "sources": [],
+   "confidence_note": "could not be confidently identified; resolve before use"
+  },
+  {
+   "name": "Ayt Madashi",
+   "kind": "fictional_persona",
+   "lenses": [
+    "villain_function"
+   ],
+   "verified_identity": false,
+   "primary_source_count": 0,
+   "sources": [],
+   "confidence_note": "clan leader as long-game strategist (fictional character)"
+  },
+  {
+   "name": "Nicodemus",
+   "kind": "fictional_persona",
+   "lenses": [
+    "villain_function"
+   ],
+   "verified_identity": false,
+   "primary_source_count": 0,
+   "sources": [],
+   "confidence_note": "patient, courteous adversary (fictional character; several works use this name)"
+  },
+  {
+   "name": "Kairos Theodosian",
+   "kind": "fictional_persona",
+   "lenses": [
+    "villain_function"
+   ],
+   "verified_identity": false,
+   "primary_source_count": 0,
+   "sources": [],
+   "confidence_note": "theatrical tyrant who plays to the story (fictional character)"
+  },
+  {
+   "name": "Lord Vetinari",
+   "kind": "fictional_persona",
+   "lenses": [
+    "villain_function"
+   ],
+   "verified_identity": false,
+   "primary_source_count": 0,
+   "sources": [],
+   "confidence_note": "ruler who makes the city work by managing everyone's self-interest (fictional character)"
+  },
+  {
+   "name": "O'Brien",
+   "kind": "fictional_persona",
+   "lenses": [
+    "villain_function"
+   ],
+   "verified_identity": false,
+   "primary_source_count": 0,
+   "sources": [],
+   "confidence_note": "the institution's interrogator, power as an end in itself (fictional character)"
+  }
+ ]
+}
