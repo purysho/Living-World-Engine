@@ -138,7 +138,7 @@ export function People() {
 export function Factions() {
   const app = useApp();
   const r = useData<any>("relations.notable", { branch: app.branch }, [app.branch, app.rev]);
-  const [show, setShow] = useState("enemy");
+  const [show, setShow] = useState("rival");
   if (!r.data) return <p className="dim">{r.error ?? "Loading…"}</p>;
   const rank: Record<string, number> = { rival: 1, enemy: 2, nemesis: 3 };
   const feuds = r.data.feuds.filter((f: any) => rank[f.status] >= rank[show] && f.from_alive);

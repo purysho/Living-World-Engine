@@ -82,6 +82,14 @@ pub fn add_grievance(s: &mut WorldState, from: &str, to: &str, what: &str, weigh
     }
     let day = s.meta.day;
     let r = s.rel_mut(from, to);
+    r.grievances.retain(|g| g.weight - (day - g.day) / 12 > 0); // old wrongs fade
+    // the same wrong repeated deepens an existing grievance a little rather than stacking without limit
+    if let Some(g) = r.grievances.iter_mut().find(|g| g.what == what) {
+        g.weight = (g.weight + weight / 4).min(80).max(weight);
+        g.day = day;
+        update_status(s, from, to, out);
+        return;
+    }
     r.grievances.push(Grievance { day, what: what.to_string(), weight });
     if r.grievances.len() > 8 {
         let i = r.grievances.iter().enumerate().min_by_key(|(_, g)| g.weight).map(|(i, _)| i).unwrap();
@@ -268,7 +276,7 @@ pub fn arrest(s: &mut WorldState, crime_id: &str, accused: &str, by: &str, out: 
     if !guilty {
         inc(out, "crime.wrongful_arrest", false, format!("[GM] {an} is innocent; the real culprit is {}.", s.person_name(&c.culprit)), json!({"crime": crime_id, "culprit": c.culprit}));
     }
-    add_grievance(s, accused, by, &format!("arrested me for the {}", c.kind), if guilty { 20 } else { 45 }, out);
+    add_grievance(s, accused, by, &format!("arrested me for the {}", c.kind), if guilty { 10 } else { 45 }, out);
     if !guilty {
         for k in kin_of(s, accused) {
             add_grievance(s, &k, by, &format!("jailed {an} on false witness"), 25, out);
@@ -450,7 +458,7 @@ fn org_leader_of(s: &WorldState, person: &str) -> Option<Id> {
 /// with evidence and possible witnesses, so it can be investigated and can backfire.
 pub fn schemes(s: &mut WorldState, out: &mut Vec<Incident>) {
     let day = s.meta.day;
-    let edges: Vec<(Id, Id, String)> = s.relations.iter().filter(|(_, r)| (r.status == "enemy" || r.status == "nemesis") && day - r.last_scheme_day >= if r.status == "nemesis" { 7 } else { 21 }).map(|(k, r)| {
+    let edges: Vec<(Id, Id, String)> = s.relations.iter().filter(|(_, r)| (r.status == "enemy" || r.status == "nemesis") && day - r.last_scheme_day >= if r.status == "nemesis" { 28 } else { 56 }).map(|(k, r)| {
         let mut it = k.split('|');
         (it.next().unwrap().to_string(), it.next().unwrap().to_string(), r.status.clone())
     }).collect();
@@ -460,7 +468,7 @@ pub fn schemes(s: &mut WorldState, out: &mut Vec<Incident>) {
             continue;
         }
         let mut r = Rng::new(s.meta.seed, "scheme", day as u64, hash_str(&from) ^ hash_str(&to).rotate_left(7));
-        if !r.chance(if status == "nemesis" { 700 } else { 350 }) {
+        if !r.chance(if status == "nemesis" { 450 } else { 250 }) {
             continue;
         }
         s.rel_mut(&from, &to).last_scheme_day = day;
@@ -492,11 +500,11 @@ pub fn schemes(s: &mut WorldState, out: &mut Vec<Incident>) {
         let same_org_leader = a.employer.is_some() && a.employer == b.employer && org_leader_of(s, &to).is_some();
         let knows_true = s.knowledge.get(&from).map(|k| k.keys().any(|c| s.claims.get(c).map(|cl| cl.subject.as_deref() == Some(to.as_str()) && cl.crime.as_ref().map(|x| s.crimes[x].status == "open").unwrap_or(false)).unwrap_or(false))).unwrap_or(false);
         let w = [
-            ("slander", (100 - a.traits.honesty).max(5)),
+            ("slander", (100 - a.traits.honesty).max(5) / 2),
             ("denounce", if knows_true { 70 } else { 0 }),
             ("sabotage", a.traits.courage * (100 - a.traits.honesty) / 100),
             ("assault", if status == "nemesis" || a.traits.temper > 80 { (a.traits.temper * a.traits.courage / 100 - 25).max(0) } else { 0 }),
-            ("undermine", if same_org_leader && a.traits.ambition > 55 { a.traits.ambition } else { 0 }),
+            ("undermine", if same_org_leader && a.traits.ambition > 55 && !a.memories.iter().any(|m| m.kind == "challenge" && day - m.day < 240) { a.traits.ambition } else { 0 }),
         ];
         let total: i64 = w.iter().map(|x| x.1).sum();
         if total <= 0 {
@@ -526,8 +534,8 @@ pub fn schemes(s: &mut WorldState, out: &mut Vec<Incident>) {
                     }
                 }
                 inc(out, "scheme.slander", false, format!("[GM] {an} is spreading word against {bn}."), json!({"from": from, "to": to, "claim": cl}));
-                if r.chance(400) {
-                    add_grievance(s, &to, &from, "has been blackening my name", 15, out);
+                if r.chance(200) {
+                    add_grievance(s, &to, &from, "has been blackening my name", 12, out);
                 }
             }
             "sabotage" => {
@@ -574,6 +582,7 @@ pub fn schemes(s: &mut WorldState, out: &mut Vec<Incident>) {
             }
             "undermine" => {
                 let oid = org_leader_of(s, &to).unwrap();
+                s.persons.get_mut(&from).unwrap().remember(day, "challenge", format!("I moved against {bn} for the leadership."), 85, vec![to.clone()]);
                 let members = s.orgs[&oid].members.clone();
                 let standing = |s: &WorldState, x: &str| -> i64 { members.iter().filter(|m| m.as_str() != x).map(|m| s.rel(m, x).map(|e| e.respect + e.fondness / 2).unwrap_or(55)).sum::<i64>() / members.len().max(1) as i64 };
                 let (sa, sb) = (standing(s, &from) + a.traits.ambition / 2, standing(s, &to) + b.traits.ambition / 3 + 12);
@@ -736,6 +745,51 @@ pub fn org_politics(s: &mut WorldState, out: &mut Vec<Incident>) {
                         add_grievance(s, &m, &l, "has not paid our wages", 9, out);
                     }
                 }
+            }
+        }
+    }
+    // organisations rebuild what they have lost, when they can afford it
+    if s.meta.day % 28 == 0 {
+        let broken: Vec<(Id, Id, String, bool)> = s.assets.values().filter(|x| (!x.active || x.condition < 100) && s.orgs.contains_key(&x.owner)).map(|x| (x.id.clone(), x.owner.clone(), x.name.clone(), x.active)).collect();
+        for (aid, owner, name, active) in broken {
+            let cost = if active { 150 * M } else { 900 * M };
+            if s.acct(&owner, "coin") > cost + 1500 * M && s.transfer(&owner, "abroad", "coin", cost).is_ok() {
+                let x = s.assets.get_mut(&aid).unwrap();
+                x.active = true;
+                x.condition = 100;
+                if !active {
+                    inc(out, "asset.rebuilt", true, format!("{} has rebuilt {name} at a cost of {} marks.", s.orgs[&owner].name, cost / M), json!({"asset": aid, "cost_milli": cost}));
+                }
+            }
+        }
+    }
+    // The world-shaping schemer (T4) needs no provocation: ambition itself is the grievance.
+    // It accrues against whoever leads their organisation until the ordinary scheme machinery
+    // (slander, sabotage, a bid for the seat) takes over — all logged, all investigable.
+    if s.meta.day % 28 == 0 {
+        let schemers: Vec<(Id, Id)> = s.persons.values().filter(|p| p.alive() && p.jailed_until.is_none() && p.flags.iter().any(|f| f == "schemer")).filter_map(|p| p.employer.clone().map(|e| (p.id.clone(), e))).collect();
+        for (sid, org) in schemers {
+            match s.orgs[&org].leader.clone() {
+                Some(l) if l != sid => {
+                    add_grievance(s, &sid, &l, "stands between me and what should be mine", 13, out);
+                    // and buys a little loyalty among the sworn
+                    let hh = s.persons[&sid].household.clone();
+                    for m in s.orgs[&org].members.clone().into_iter().filter(|m| m != &sid && m != &l).take(3) {
+                        let mh = s.persons[&m].household.clone();
+                        if s.transfer(&hh, &mh, "coin", 4 * M).is_ok() {
+                            let r = s.rel_mut(&m, &sid);
+                            r.respect = clamp(r.respect + 5, 0, 100);
+                            r.fondness = clamp(r.fondness + 3, 0, 100);
+                        }
+                    }
+                }
+                Some(_) => {
+                    // having taken the seat, the schemer turns on the Hall
+                    if let Some(reeve) = s.orgs["org_reeve"].leader.clone() {
+                        add_grievance(s, &sid, &reeve, "taxes what I have built", 9, out);
+                    }
+                }
+                None => {}
             }
         }
     }

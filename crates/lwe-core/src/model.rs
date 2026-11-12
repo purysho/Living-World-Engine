@@ -225,7 +225,7 @@ pub struct Relation {
 
 impl Relation {
     pub fn hostility(&self, day: i64) -> i64 {
-        self.grievances.iter().map(|g| (g.weight - (day - g.day).max(0) / 20).max(g.weight / 3)).sum()
+        self.grievances.iter().map(|g| (g.weight - (day - g.day).max(0) / 12).max(0)).sum()
     }
     pub fn affinity(&self) -> i64 {
         (self.trust + self.fondness) / 2
