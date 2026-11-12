@@ -1,0 +1,15 @@
+[package]
+name = "lwe-server"
+version.workspace = true
+edition.workspace = true
+publish = false
+description = "Living World Engine: local HTTP host for the same command gateway the desktop app uses"
+
+[[bin]]
+name = "lwe-server"
+path = "src/main.rs"
+
+[dependencies]
+lwe-core = { path = "../lwe-core" }
+serde_json = "1"
+tiny_http = "0.12"

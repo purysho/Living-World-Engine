@@ -386,7 +386,7 @@ pub fn rumours(s: &mut WorldState, out: &mut Vec<Incident>) {
             k.retain(|c, _| !stale.contains(c));
         }
         s.knowledge.retain(|_, k| !k.is_empty());
-        let closed: Vec<Id> = s.crimes.values().filter(|c| c.status != "open" && day - c.day > 150).map(|c| c.id.clone()).collect();
+        let closed: Vec<Id> = s.crimes.values().filter(|c| c.status != "open" && day - c.day > 400).map(|c| c.id.clone()).collect();
         s.evidence.retain(|_, e| !closed.contains(&e.crime));
     }
     let adj = adjacency(s);

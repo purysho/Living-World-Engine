@@ -1,13 +1,11 @@
 [workspace]
 resolver = "2"
-members = ["crates/lwe-core"]
-default-members = ["crates/lwe-core"]
+members = ["crates/lwe-core", "crates/lwe-server", "apps/desktop/src-tauri"]
+default-members = ["crates/lwe-core", "crates/lwe-server"]
 
 [workspace.package]
 version = "0.3.0"
 edition = "2021"
-license = "MIT"
-authors = ["Living World Engine contributors"]
 
 [profile.dev]
 opt-level = 2

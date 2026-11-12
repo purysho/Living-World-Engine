@@ -113,7 +113,7 @@ pub fn offline_reply(s: &WorldState, id: &str, said: &str) -> Res<(String, Vec<I
     let opener = if p.hunger > 45 {
         format!("\"Forgive me, I've not eaten properly in days. Grain's at {}% of what it should be.\" ", s.grain_price_ratio_pct())
     } else if low.contains("who are you") || low.contains("your name") || low.contains("hello") || low.contains("greet") || low.len() < 12 {
-        format!("\"{}. {} by trade, {} all my life.\" ", p.full_name(), cap(&p.occupation), s.meta.town)
+        format!("\"{}. {} by trade, {} all my life.\" {} ", p.full_name(), cap(&p.occupation), s.meta.town, if p.traits.sociability > 60 { "They seem glad of the company." } else { "They keep working as they talk." })
     } else {
         String::new()
     };

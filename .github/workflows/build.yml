@@ -1,0 +1,64 @@
+name: build
+
+on:
+  push:
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+concurrency:
+  group: build-${{ github.ref }}
+  cancel-in-progress: true
+
+jobs:
+  test:
+    name: Tests (Linux)
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: dtolnay/rust-toolchain@stable
+      - uses: Swatinem/rust-cache@v2
+      - name: Core and server tests
+        run: cargo test -p lwe-core -p lwe-server
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+          cache: npm
+          cache-dependency-path: apps/desktop/package-lock.json
+      - name: UI typecheck and build
+        working-directory: apps/desktop
+        run: |
+          npm ci
+          npm run build
+
+  windows:
+    name: Windows installer
+    runs-on: windows-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: dtolnay/rust-toolchain@stable
+      - uses: Swatinem/rust-cache@v2
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+          cache: npm
+          cache-dependency-path: apps/desktop/package-lock.json
+      - name: Core tests on Windows
+        run: cargo test -p lwe-core
+      - name: Install UI dependencies
+        working-directory: apps/desktop
+        run: npm ci
+      - name: Build installer (NSIS)
+        working-directory: apps/desktop
+        run: npx tauri build
+      - name: Checksums
+        shell: pwsh
+        run: Get-ChildItem target/release/bundle/nsis/*.exe | ForEach-Object { "$((Get-FileHash $_ -Algorithm SHA256).Hash)  $($_.Name)" } | Tee-Object -FilePath target/release/bundle/nsis/SHA256SUMS.txt
+      - uses: actions/upload-artifact@v4
+        with:
+          name: LivingWorldEngine-windows-installer
+          path: |
+            target/release/bundle/nsis/*.exe
+            target/release/bundle/nsis/SHA256SUMS.txt
+          if-no-files-found: error
